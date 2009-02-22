@@ -1,0 +1,5 @@
+In file included from /Users/drahmany/Documents/iPhone/geowiki/Classes/GPSDelegate.m:9:
+/Users/drahmany/Documents/iPhone/geowiki/Classes/GPSDelegate.h:12: error: cannot find interface declaration for 'CLLocationManager', superclass of 'GPSDelegate'
+/Users/drahmany/Documents/iPhone/geowiki/Classes/GPSDelegate.h:12: error: cannot find protocol declaration for 'CLLocationManagerDelegate'
+/Users/drahmany/Documents/iPhone/geowiki/Classes/GPSDelegate.m:17: error: syntax error before 'AT_NAME' token
+/Users/drahmany/Documents/iPhone/geowiki/Classes/GPSDelegate.m:17: warning: '@end' missing in implementation context

@@ -1,0 +1,8 @@
+#########################################################################################
+check for connection before we try to connect and warn the user
+get an error of some sort that causes the parser to somehow let the user know that there are not results
+#########################################################################################
+handle the situation where there is no location and you reset the enable updating button
+set distance for gps firing to something reasonable
+use iphone to calculate distance rather than the server
+find out why wireless to 3g messes with the program

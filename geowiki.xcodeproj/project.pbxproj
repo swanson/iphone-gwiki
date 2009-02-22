@@ -1,0 +1,359 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* geowikiAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* geowikiAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		2892E4100DC94CBA00A64D0F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */; };
+		2899E5600DE3E45000AC0155 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E55F0DE3E45000AC0155 /* RootViewController.xib */; };
+		28AD73600D9D9599002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD735F0D9D9599002E5188 /* MainWindow.xib */; };
+		28C286E10D94DF7D0034E888 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C286E00D94DF7D0034E888 /* RootViewController.m */; };
+		E132BB6F0ED51E1A003D3C8D /* error.html in Resources */ = {isa = PBXBuildFile; fileRef = E132BB6E0ED51E1A003D3C8D /* error.html */; };
+		E132BC1C0ED52983003D3C8D /* GPSController.m in Sources */ = {isa = PBXBuildFile; fileRef = E132BC1B0ED52983003D3C8D /* GPSController.m */; };
+		E1C02DD80EDE8B2F00621597 /* AboutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1C02DD70EDE8B2F00621597 /* AboutViewController.xib */; };
+		E1C02DDC0EDE8B4C00621597 /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1C02DDB0EDE8B4C00621597 /* AboutViewController.m */; };
+		E1C3B5D60ED4BF390019DE27 /* Location.m in Sources */ = {isa = PBXBuildFile; fileRef = E1C3B5D50ED4BF390019DE27 /* Location.m */; };
+		E1C3B5D90ED4BF4E0019DE27 /* LocationParser.m in Sources */ = {isa = PBXBuildFile; fileRef = E1C3B5D80ED4BF4E0019DE27 /* LocationParser.m */; };
+		E1C3B5DC0ED4BF5E0019DE27 /* LocationCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E1C3B5DB0ED4BF5E0019DE27 /* LocationCell.m */; };
+		E1C3B6660ED4C3CB0019DE27 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1C3B6650ED4C3CB0019DE27 /* CoreLocation.framework */; };
+		E1C3B7230ED4E30E0019DE27 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1C3B7220ED4E30E0019DE27 /* AudioToolbox.framework */; };
+		E1C3B9230ED503840019DE27 /* geowikiViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1C3B9220ED503840019DE27 /* geowikiViewController.xib */; };
+		E1C3B9270ED503B70019DE27 /* geowikiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1C3B9260ED503B70019DE27 /* geowikiViewController.m */; };
+		E1D27ED10EE6093D006E5E4F /* loadingpage.html in Resources */ = {isa = PBXBuildFile; fileRef = E1D27ED00EE6093D006E5E4F /* loadingpage.html */; };
+		E1EDBE8D0EE35CA9006F2B87 /* todo.txt in Resources */ = {isa = PBXBuildFile; fileRef = E1EDBE8C0EE35CA9006F2B87 /* todo.txt */; };
+		E1F7B89D0EF59E0F009AB8A4 /* default.png in Resources */ = {isa = PBXBuildFile; fileRef = E1F7B89C0EF59E0F009AB8A4 /* default.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* geowikiAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = geowikiAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* geowikiAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = geowikiAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* geowiki.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = geowiki.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2899E55F0DE3E45000AC0155 /* RootViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
+		28A0AAE50D9B0CCF005BE974 /* geowiki_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = geowiki_Prefix.pch; sourceTree = "<group>"; };
+		28AD735F0D9D9599002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		28C286DF0D94DF7D0034E888 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		28C286E00D94DF7D0034E888 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E132BB6E0ED51E1A003D3C8D /* error.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = error.html; sourceTree = "<group>"; };
+		E132BC1A0ED52983003D3C8D /* GPSController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPSController.h; sourceTree = "<group>"; };
+		E132BC1B0ED52983003D3C8D /* GPSController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPSController.m; sourceTree = "<group>"; };
+		E1C02DD70EDE8B2F00621597 /* AboutViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AboutViewController.xib; sourceTree = "<group>"; };
+		E1C02DDA0EDE8B4C00621597 /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AboutViewController.h; path = ../AboutViewController.h; sourceTree = "<group>"; };
+		E1C02DDB0EDE8B4C00621597 /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AboutViewController.m; path = ../AboutViewController.m; sourceTree = "<group>"; };
+		E1C3B5D40ED4BF390019DE27 /* Location.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Location.h; sourceTree = "<group>"; };
+		E1C3B5D50ED4BF390019DE27 /* Location.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Location.m; sourceTree = "<group>"; };
+		E1C3B5D70ED4BF4E0019DE27 /* LocationParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationParser.h; sourceTree = "<group>"; };
+		E1C3B5D80ED4BF4E0019DE27 /* LocationParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationParser.m; sourceTree = "<group>"; };
+		E1C3B5DA0ED4BF5E0019DE27 /* LocationCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationCell.h; sourceTree = "<group>"; };
+		E1C3B5DB0ED4BF5E0019DE27 /* LocationCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationCell.m; sourceTree = "<group>"; };
+		E1C3B6650ED4C3CB0019DE27 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		E1C3B7220ED4E30E0019DE27 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		E1C3B82E0ED4F6150019DE27 /* geowikiGlobals.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = geowikiGlobals.h; sourceTree = "<group>"; };
+		E1C3B9220ED503840019DE27 /* geowikiViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = geowikiViewController.xib; sourceTree = "<group>"; };
+		E1C3B9250ED503B70019DE27 /* geowikiViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = geowikiViewController.h; sourceTree = "<group>"; };
+		E1C3B9260ED503B70019DE27 /* geowikiViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = geowikiViewController.m; sourceTree = "<group>"; };
+		E1D27ED00EE6093D006E5E4F /* loadingpage.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = loadingpage.html; sourceTree = "<group>"; };
+		E1EDBE8C0EE35CA9006F2B87 /* todo.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = todo.txt; sourceTree = "<group>"; };
+		E1F7B89C0EF59E0F009AB8A4 /* default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = default.png; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				2892E4100DC94CBA00A64D0F /* CoreGraphics.framework in Frameworks */,
+				E1C3B6660ED4C3CB0019DE27 /* CoreLocation.framework in Frameworks */,
+				E1C3B7230ED4E30E0019DE27 /* AudioToolbox.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E1C02DDD0EDE8B5200621597 /* About */,
+				E132BC070ED528A5003D3C8D /* GPS Classes */,
+				E1C3B9210ED503580019DE27 /* Web Classes */,
+				E1C3B5DD0ED4BF6A0019DE27 /* Location Classes */,
+				28C286DF0D94DF7D0034E888 /* RootViewController.h */,
+				28C286E00D94DF7D0034E888 /* RootViewController.m */,
+				1D3623240D0F684500981E51 /* geowikiAppDelegate.h */,
+				1D3623250D0F684500981E51 /* geowikiAppDelegate.m */,
+				E1C3B82E0ED4F6150019DE27 /* geowikiGlobals.h */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* geowiki.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				28A0AAE50D9B0CCF005BE974 /* geowiki_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E1F7B89C0EF59E0F009AB8A4 /* default.png */,
+				2899E55F0DE3E45000AC0155 /* RootViewController.xib */,
+				28AD735F0D9D9599002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* Info.plist */,
+				E1C3B9220ED503840019DE27 /* geowikiViewController.xib */,
+				E132BB6E0ED51E1A003D3C8D /* error.html */,
+				E1C02DD70EDE8B2F00621597 /* AboutViewController.xib */,
+				E1EDBE8C0EE35CA9006F2B87 /* todo.txt */,
+				E1D27ED00EE6093D006E5E4F /* loadingpage.html */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E1C3B7220ED4E30E0019DE27 /* AudioToolbox.framework */,
+				E1C3B6650ED4C3CB0019DE27 /* CoreLocation.framework */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E132BC070ED528A5003D3C8D /* GPS Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E132BC1A0ED52983003D3C8D /* GPSController.h */,
+				E132BC1B0ED52983003D3C8D /* GPSController.m */,
+			);
+			name = "GPS Classes";
+			sourceTree = "<group>";
+		};
+		E1C02DDD0EDE8B5200621597 /* About */ = {
+			isa = PBXGroup;
+			children = (
+				E1C02DDA0EDE8B4C00621597 /* AboutViewController.h */,
+				E1C02DDB0EDE8B4C00621597 /* AboutViewController.m */,
+			);
+			name = About;
+			sourceTree = "<group>";
+		};
+		E1C3B5DD0ED4BF6A0019DE27 /* Location Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E1C3B5D40ED4BF390019DE27 /* Location.h */,
+				E1C3B5D50ED4BF390019DE27 /* Location.m */,
+				E1C3B5D70ED4BF4E0019DE27 /* LocationParser.h */,
+				E1C3B5D80ED4BF4E0019DE27 /* LocationParser.m */,
+				E1C3B5DA0ED4BF5E0019DE27 /* LocationCell.h */,
+				E1C3B5DB0ED4BF5E0019DE27 /* LocationCell.m */,
+			);
+			name = "Location Classes";
+			sourceTree = "<group>";
+		};
+		E1C3B9210ED503580019DE27 /* Web Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E1C3B9250ED503B70019DE27 /* geowikiViewController.h */,
+				E1C3B9260ED503B70019DE27 /* geowikiViewController.m */,
+			);
+			name = "Web Classes";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* geowiki */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "geowiki" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = geowiki;
+			productName = geowiki;
+			productReference = 1D6058910D05DD3D006BFB54 /* geowiki.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "geowiki" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+				en,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* geowiki */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD73600D9D9599002E5188 /* MainWindow.xib in Resources */,
+				2899E5600DE3E45000AC0155 /* RootViewController.xib in Resources */,
+				E1C3B9230ED503840019DE27 /* geowikiViewController.xib in Resources */,
+				E132BB6F0ED51E1A003D3C8D /* error.html in Resources */,
+				E1C02DD80EDE8B2F00621597 /* AboutViewController.xib in Resources */,
+				E1EDBE8D0EE35CA9006F2B87 /* todo.txt in Resources */,
+				E1D27ED10EE6093D006E5E4F /* loadingpage.html in Resources */,
+				E1F7B89D0EF59E0F009AB8A4 /* default.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* geowikiAppDelegate.m in Sources */,
+				28C286E10D94DF7D0034E888 /* RootViewController.m in Sources */,
+				E1C3B5D60ED4BF390019DE27 /* Location.m in Sources */,
+				E1C3B5D90ED4BF4E0019DE27 /* LocationParser.m in Sources */,
+				E1C3B5DC0ED4BF5E0019DE27 /* LocationCell.m in Sources */,
+				E1C3B9270ED503B70019DE27 /* geowikiViewController.m in Sources */,
+				E132BC1C0ED52983003D3C8D /* GPSController.m in Sources */,
+				E1C02DDC0EDE8B4C00621597 /* AboutViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = geowiki_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				PRODUCT_NAME = geowiki;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = geowiki_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				PRODUCT_NAME = geowiki;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos2.1;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos2.1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "geowiki" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "geowiki" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
